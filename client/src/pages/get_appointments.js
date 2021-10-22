@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 // import { getDiscoverPosts, DISCOVER_TYPES } from '../redux/actions/discoverAction'
-import LoadIcon from '../images/loading.gif'
+// import LoadIcon from '../images/loading.gif'
 // import PostThumb from '../components/PostThumb'
 // import LoadMoreBtn from '../components/LoadMoreBtn'
 import { getDataAPI} from '../utils/fetchData'
 
-const Discover = () => {
+const get_appointments = () => {
     // const { auth, discover } = useSelector(state => state)
     // const dispatch = useDispatch()
 
@@ -47,4 +47,4 @@ const Discover = () => {
     )
 }
 
-export default Discover
+export default get_appointments

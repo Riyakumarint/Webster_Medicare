@@ -17,10 +17,10 @@ const Menu = () => {
     return ( 
         <ul className="navbar-nav menu ms-auto">
             
-            <NavLink exact to='/find_doctor' class="main-nav" activeStyle={{
+            <NavLink exact to='/get_appointments' class="main-nav" activeStyle={{
     fontWeight: "bold",
     color: "black"
-  }}>Find Doctors</NavLink>
+  }}>Get Appoinments</NavLink>
             <NavLink exact to='/find_video_consult' class="main-nav" activeStyle={{
     fontWeight: "bold",
     color: "black"
