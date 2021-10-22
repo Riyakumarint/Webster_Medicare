@@ -1,6 +1,5 @@
 const mongoose = require('mongoose')
 
-
 const userSchema = new mongoose.Schema({
     fullname: {
         type: String,
@@ -32,7 +31,7 @@ const userSchema = new mongoose.Schema({
     role: {type: String, default: 'user'},
     gender: { type: String, default: 'male' },
     age:{type:String,default:''},
-    mobile: {type: String, default: ''},
+    mobile: {type: String,required: true, default: ''},
     address: { type: String, default: '' },
     website: {type: String, default: ''},
     followers: [{type: mongoose.Types.ObjectId, ref: 'user'}],
